@@ -1,4 +1,4 @@
-package com.example.workbee.dto;
+package com.example.workbee.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
