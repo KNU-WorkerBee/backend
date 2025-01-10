@@ -21,7 +21,7 @@ public class AuthService {
     @Transactional
     public void signUp(SignUpRequest request) {
         if (userRepository.existsByEmail(request.getEmail())) {
-            throw new RuntimeException("이미 존재하는 이메일입니다.");
+            throw new IllegalArgumentException("이미 존재하는 이메일입니다.");
         }
 
         User user = User.builder()
