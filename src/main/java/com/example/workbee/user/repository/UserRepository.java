@@ -1,6 +1,6 @@
-package com.example.workbee.repository;
+package com.example.workbee.user.repository;
 
-import com.example.workbee.entity.User;
+import com.example.workbee.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,9 +1,9 @@
-package com.example.workbee.controller;
+package com.example.workbee.user.controller;
 
-import com.example.workbee.dto.LoginRequest;
-import com.example.workbee.dto.SignUpRequest;
-import com.example.workbee.dto.TokenResponse;
-import com.example.workbee.service.AuthService;
+import com.example.workbee.user.dto.LoginRequest;
+import com.example.workbee.user.dto.SignUpRequest;
+import com.example.workbee.user.dto.TokenResponse;
+import com.example.workbee.user.service.AuthService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

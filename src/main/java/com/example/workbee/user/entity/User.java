@@ -1,4 +1,4 @@
-package com.example.workbee.entity;
+package com.example.workbee.user.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

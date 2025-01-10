@@ -1,4 +1,4 @@
-package com.example.workbee.security;
+package com.example.workbee.user.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

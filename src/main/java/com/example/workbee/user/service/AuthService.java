@@ -1,11 +1,11 @@
-package com.example.workbee.service;
+package com.example.workbee.user.service;
 
-import com.example.workbee.dto.LoginRequest;
-import com.example.workbee.dto.SignUpRequest;
-import com.example.workbee.dto.TokenResponse;
-import com.example.workbee.entity.User;
-import com.example.workbee.repository.UserRepository;
-import com.example.workbee.security.JwtUtil;
+import com.example.workbee.user.dto.LoginRequest;
+import com.example.workbee.user.dto.SignUpRequest;
+import com.example.workbee.user.dto.TokenResponse;
+import com.example.workbee.user.entity.User;
+import com.example.workbee.user.repository.UserRepository;
+import com.example.workbee.user.security.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
