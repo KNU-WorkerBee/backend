@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: workbee
+  datasource:
+    url: jdbc:mysql://localhost:3306/workbee
+    username: root
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+jwt:
+  secret: thisIsVeryVeryVeryVeryVeryVeryVerySecretKey123!@#
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs 
