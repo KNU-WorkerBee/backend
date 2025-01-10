@@ -38,3 +38,5 @@ out/
 
 # Google Cloud credentials
 src/main/resources/credentials/google-credentials.json
+# Application properties with sensitive data
+src/main/resources/application.yml

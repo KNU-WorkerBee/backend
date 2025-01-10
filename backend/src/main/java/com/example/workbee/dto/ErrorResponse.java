@@ -3,6 +3,7 @@ import lombok.AllArgsConstructor;
 
 @Getter
 @AllArgsConstructor
-public class ConversionResponse {
-    private String text;
+public class ErrorResponse {
+    private String message;
+    private int status;
 } 
