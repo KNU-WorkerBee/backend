@@ -24,5 +24,6 @@ springdoc:
 
 google:
   cloud:
+    project-id: sttaiservice
     credentials:
       file: classpath:stt.json
